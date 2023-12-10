@@ -239,7 +239,6 @@
 		-1 * (var(--width, 240px) - 60px) * var(--hide-var, --hide-fallback-enabled)
 	  )
 	);
-	backdrop-filter: blur(calc(var(--hide-var, --hide-fallback-enabled) * 3px));
   }
   .app-focused.full-motion .noResultsImage__08760.alt__77d89,
   .app-focused.reduce-motion .noResultsImage__08760.alt__77d89:hover {
